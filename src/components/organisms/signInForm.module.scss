@@ -187,6 +187,26 @@ filter: blur(300px);
     width: 100%;
     margin-bottom: 173px;
    }
+   .link {
+    color: #AD7955 !important;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .link:hover {
+    color: #653012 !important;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .forgotPassword__link {
+    color: #AD7955;
+    text-decoration: none;
+    cursor: pointer;
+   }
+   .forgotPassword__link:hover {
+    color: #653012;
+    text-decoration: underline;
+    cursor: pointer;
+  }
 }
 
 @media (min-width: 280px) and (max-width: 1024px) {
@@ -294,4 +314,24 @@ filter: blur(300px);
     width: 100%;
     margin-bottom: 161px;
    }
+   .link {
+    color: #AD7955 !important;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .link:hover {
+    color: #653012 !important;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+   .forgotPassword__link {
+    color: #AD7955;
+    text-decoration: none;
+    cursor: pointer;
+   }
+   .forgotPassword__link:hover {
+    color: #653012;
+    text-decoration: underline;
+    cursor: pointer;
+  }
 }

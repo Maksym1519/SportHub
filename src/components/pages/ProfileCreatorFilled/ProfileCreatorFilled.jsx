@@ -585,7 +585,9 @@ const ProfileCreatorFilled = () => {
                   alt="ava"
                   className={p.avatarImg}
                 />
-                {avatarPreview && <img src={avatarPreview} className={p.avatarPreview}/>}
+                {avatarPreview && (
+                  <img src={avatarPreview} className={p.avatarPreview} />
+                )}
                 <ColumnTemplate
                   row1={
                     <Avatext
@@ -598,13 +600,7 @@ const ProfileCreatorFilled = () => {
                       }
                     />
                   }
-                  row2={
-                    <Text14400
-                      text="Change file"
-                      color="rgba(173, 121, 85, 1)"
-                      underline={true}
-                    />
-                  }
+                  row2={<span className={p.changeFile}>Change file</span>}
                 />
                 <img
                   src={Icones.bucket}
@@ -627,7 +623,9 @@ const ProfileCreatorFilled = () => {
                   alt="ava"
                   className={p.avatarImg}
                 />
-                {coverPreview && <img src={coverPreview} className={p.avatarPreview}/>}
+                {coverPreview && (
+                  <img src={coverPreview} className={p.avatarPreview} />
+                )}
                 <ColumnTemplate
                   row1={
                     <Avatext
@@ -640,13 +638,7 @@ const ProfileCreatorFilled = () => {
                       }
                     />
                   }
-                  row2={
-                    <Text14400
-                      text="Change file"
-                      color="rgba(173, 121, 85, 1)"
-                      underline={true}
-                    />
-                  }
+                  row2={<span className={p.changeFile}>Change file</span>}
                 />
                 <img
                   src={Icones.bucket}

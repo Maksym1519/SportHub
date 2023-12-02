@@ -17,7 +17,7 @@ export const Text14500 = (props) => {
         lineHeight: props.lineHeight
     }
     return (
-        <div className={t.text14500__wrapper} style={styled}>
+        <div className={`${props.hoverColor} ? ${t.text14500Hovered__wrapper} : ${t.text14500__wrapper}`} style={styled}>
             {props.text}
         </div>
     )
@@ -27,9 +27,9 @@ export const Text16500 = (props) => {
         color: props.color,
         lineHeight: props.lineHeight,
         textDecoration: props.underline ? 'underline' : 'none',
-    }
-    return (
-        <div className={t.text16500__wrapper} style={styled}>
+         }
+        return (
+        <div className={`${props.hoverColor} ? ${t.text16500Hovered__wrapper} : ${t.text16500__wrapper}`} style={styled}>
             {props.text}
         </div>
     )
@@ -39,7 +39,7 @@ export const Text16500R = (props) => {
         color: props.color,
         lineHeight: props.lineHeight,
         textDecoration: props.underline ? 'underline' : 'none',
-    }
+        }
     return (
         <div className={t.text16500R__wrapper} style={styled}>
             {props.text}
@@ -88,7 +88,7 @@ export const Text14400 = (props) => {
         textDecoration: props.underline ? "underline": ""
     }
     return (
-        <div className={t.text14400__wrapper} style={styled}>
+        <div className={`${props.hoverColor !== '' ? t.text14400__wrapper : t.text14400Hovered__wrapper}`} style={styled}>
             {props.text}
             {props.text2}
         </div>

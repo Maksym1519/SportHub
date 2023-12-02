@@ -177,8 +177,8 @@ const SignUpForm = (props) => {
               <span className={s.link} onClick={props.click}>
                 <Text16500
                   text={"Sign in"}
-                  color="rgba(173, 121, 85, 1)"
-                  underline={true}
+                  color="#AD7955"
+                  //underline={true}
                 />
               </span>
             </div>

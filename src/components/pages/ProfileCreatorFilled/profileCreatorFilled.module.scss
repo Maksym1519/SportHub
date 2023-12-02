@@ -135,6 +135,17 @@
       }
     }
   }
+  .changeFile {
+  color: #AD7955;
+  font-family: "Uto-400";
+  font-size: 14px;
+  line-height: 16px;
+  z-index: 10000;
+  }
+  .changeFile:hover {
+    color: #653012;
+    text-decoration: underline;
+  }
 }
 
 @media (min-width: 280px) and (max-width: 1024px) {
@@ -286,4 +297,15 @@
       }
     }
   }
+  .changeFile {
+    color: #AD7955;
+    font-family: "Uto-400";
+    font-size: 14px;
+    line-height: 16px;
+    z-index: 10000;
+    }
+    .changeFile:hover {
+      color: #653012;
+      text-decoration: underline;
+    }
 }

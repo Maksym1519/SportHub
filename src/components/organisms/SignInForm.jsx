@@ -161,7 +161,7 @@ const SignInForm = (props) => {
             <Text16500
               text={"Sign up"}
               color="rgba(173, 121, 85, 1)"
-              underline={true}
+              hoverColor="#653012"
             />
           </span>
         </div>
